@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UnlimitedLife" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="kernel/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../.build/UnlimitedLifeD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../.obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../.build/UnlimitedLife" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../.obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="GLFW" value="$(MDV)\Projects\Comps\GLFW" />
+				<Variable name="GLM" value="$(VULKAN)\Include" />
+				<Variable name="MDV" value="D:" />
+				<Variable name="UEN_INC" value="$(MDV)\UnlimitedLife-VK\uen" />
+				<Variable name="UEN_LIB" value="$(MDV)\UnlimitedLife-VK\.build" />
+				<Variable name="VKLIB" value="Lib32" />
+				<Variable name="VULKAN" value="$(MDV)\Apps\Vulkan" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++17" />
+			<Add option="-fexceptions" />
+			<Add option="-DGLFW_INCLUDE_VULKAN" />
+			<Add directory="$(VULKAN)/Include" />
+			<Add directory="$(GLFW)/Include" />
+			<Add directory="$(GLM)" />
+			<Add directory="$(UEN_INC)" />
+		</Compiler>
+		<Linker>
+			<Add library="vulkan-1" />
+			<Add library="glfw3" />
+			<Add library="gdi32" />
+			<Add library="UniversalEngineVK" />
+			<Add directory="$(VULKAN)/$(VKLIB)" />
+			<Add directory="$(GLFW)/Lib" />
+			<Add directory="$(UEN_LIB)" />
+		</Linker>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="kernel/" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

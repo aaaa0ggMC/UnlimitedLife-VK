@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="UnlimitedLife">
+		<Project filename="main/UnlimitedLife.cbp">
+			<Depends filename="uen/UniversalEngine.cbp" />
+		</Project>
+		<Project filename="uen/UniversalEngine.cbp" />
+		<Project filename="../MineTerraria/#innerProjs/hiGLEW/hiGLEW.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

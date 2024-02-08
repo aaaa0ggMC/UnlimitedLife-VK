@@ -1,0 +1,322 @@
+# depslib dependency file v1.0
+1705313291 source:e:\unlimitedlife-vk\uen\main.cpp
+	"main.h"
+
+1705313276 e:\unlimitedlife-vk\uen\main.h
+	<windows.h>
+
+1705568828 source:e:\unlimitedlife-vk\uen\uen\graphics.cpp
+	"Graphics.h"
+
+1705810523 e:\unlimitedlife-vk\uen\uen\graphics.h
+	"UenKernel.h"
+	"General.h"
+	<string>
+	<vector>
+	<GLFW/glfw3.h>
+
+1705398482 e:\unlimitedlife-vk\uen\uen\uenkernel.h
+
+1657836684 e:\projects\comps\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<GL/glext.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glext.h>
+
+1698096652 e:\apps\vulkan\include\vulkan\vulkan.h
+	"vk_platform.h"
+	"vulkan_core.h"
+	"vulkan_android.h"
+	<zircon/types.h>
+	"vulkan_fuchsia.h"
+	"vulkan_ios.h"
+	"vulkan_macos.h"
+	"vulkan_metal.h"
+	"vulkan_vi.h"
+	"vulkan_wayland.h"
+	<windows.h>
+	"vulkan_win32.h"
+	<xcb/xcb.h>
+	"vulkan_xcb.h"
+	<X11/Xlib.h>
+	"vulkan_xlib.h"
+	<directfb.h>
+	"vulkan_directfb.h"
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	"vulkan_xlib_xrandr.h"
+	<ggp_c/vulkan_types.h>
+	"vulkan_ggp.h"
+	<screen/screen.h>
+	"vulkan_screen.h"
+	<nvscisync.h>
+	<nvscibuf.h>
+	"vulkan_sci.h"
+	"vulkan_beta.h"
+
+1698096652 e:\apps\vulkan\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+
+1698096652 e:\apps\vulkan\include\vulkan\vulkan_core.h
+	"vk_platform.h"
+	"vk_video/vulkan_video_codec_h264std.h"
+	"vk_video/vulkan_video_codec_h264std_decode.h"
+	"vk_video/vulkan_video_codec_h265std.h"
+	"vk_video/vulkan_video_codec_h265std_decode.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std.h
+	"vulkan_video_codecs_common.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codecs_common.h
+	<stdint.h>
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std_decode.h
+	"vulkan_video_codec_h264std.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std.h
+	"vulkan_video_codecs_common.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std_decode.h
+	"vulkan_video_codec_h265std.h"
+
+1698096652 e:\apps\vulkan\include\vulkan\vulkan_android.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_fuchsia.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_ios.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_macos.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_metal.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_vi.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_wayland.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_win32.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_xcb.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_xlib.h
+
+1698096652 e:\apps\vulkan\include\vulkan\vulkan_directfb.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_xlib_xrandr.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_ggp.h
+
+1698096653 e:\apps\vulkan\include\vulkan\vulkan_screen.h
+
+1698096652 e:\apps\vulkan\include\vulkan\vulkan_beta.h
+	"vk_video/vulkan_video_codec_h264std.h"
+	"vk_video/vulkan_video_codec_h264std_encode.h"
+	"vk_video/vulkan_video_codec_h265std.h"
+	"vk_video/vulkan_video_codec_h265std_encode.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std_encode.h
+	"vulkan_video_codec_h264std.h"
+
+1698096652 e:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std_encode.h
+	"vulkan_video_codec_h265std.h"
+
+1705808075 source:e:\unlimitedlife-vk\uen\uen\graphics.vulkan.cpp
+	"Graphics.Vulkan.h"
+
+1705808338 e:\unlimitedlife-vk\uen\uen\graphics.vulkan.h
+	<vulkan/vulkan.h>
+	"Graphics.h"
+
+1705462192 e:\unlimitedlife-vk\uen\uen\general.h
+	<GLFW/glfw3.h>
+
+1705462235 source:e:\unlimitedlife-vk\uen\uen\general.cpp
+	"General.h"
+	<stdlib.h>
+
+1705568828 source:d:\unlimitedlife-vk\uen\uen\graphics.cpp
+	"Graphics.h"
+
+1706343233 d:\unlimitedlife-vk\uen\uen\graphics.h
+	"UenKernel.h"
+	"General.h"
+	<string>
+	<vector>
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1705398482 d:\unlimitedlife-vk\uen\uen\uenkernel.h
+
+1706341727 d:\unlimitedlife-vk\uen\uen\general.h
+	<GLFW/glfw3.h>
+	<iostream>
+
+1706343550 source:d:\unlimitedlife-vk\uen\uen\graphics.vulkan.cpp
+	"Graphics.Vulkan.h"
+	<string.h>
+	<limits>
+	<algorithm>
+	<set>
+
+1706343141 d:\unlimitedlife-vk\uen\uen\graphics.vulkan.h
+	<vulkan/vulkan.h>
+	<vector>
+	<string>
+	<set>
+	<optional>
+	"Graphics.h"
+
+1657836684 d:\projects\comps\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<GL/glext.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glext.h>
+
+1698096652 d:\apps\vulkan\include\vulkan\vulkan.h
+	"vk_platform.h"
+	"vulkan_core.h"
+	"vulkan_android.h"
+	<zircon/types.h>
+	"vulkan_fuchsia.h"
+	"vulkan_ios.h"
+	"vulkan_macos.h"
+	"vulkan_metal.h"
+	"vulkan_vi.h"
+	"vulkan_wayland.h"
+	<windows.h>
+	"vulkan_win32.h"
+	<xcb/xcb.h>
+	"vulkan_xcb.h"
+	<X11/Xlib.h>
+	"vulkan_xlib.h"
+	<directfb.h>
+	"vulkan_directfb.h"
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	"vulkan_xlib_xrandr.h"
+	<ggp_c/vulkan_types.h>
+	"vulkan_ggp.h"
+	<screen/screen.h>
+	"vulkan_screen.h"
+	<nvscisync.h>
+	<nvscibuf.h>
+	"vulkan_sci.h"
+	"vulkan_beta.h"
+
+1698096652 d:\apps\vulkan\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+
+1698096652 d:\apps\vulkan\include\vulkan\vulkan_core.h
+	"vk_platform.h"
+	"vk_video/vulkan_video_codec_h264std.h"
+	"vk_video/vulkan_video_codec_h264std_decode.h"
+	"vk_video/vulkan_video_codec_h265std.h"
+	"vk_video/vulkan_video_codec_h265std_decode.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std.h
+	"vulkan_video_codecs_common.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codecs_common.h
+	<stdint.h>
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std_decode.h
+	"vulkan_video_codec_h264std.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std.h
+	"vulkan_video_codecs_common.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std_decode.h
+	"vulkan_video_codec_h265std.h"
+
+1698096652 d:\apps\vulkan\include\vulkan\vulkan_android.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_fuchsia.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_ios.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_macos.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_metal.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_vi.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_wayland.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_win32.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_xcb.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_xlib.h
+
+1698096652 d:\apps\vulkan\include\vulkan\vulkan_directfb.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_xlib_xrandr.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_ggp.h
+
+1698096653 d:\apps\vulkan\include\vulkan\vulkan_screen.h
+
+1698096652 d:\apps\vulkan\include\vulkan\vulkan_beta.h
+	"vk_video/vulkan_video_codec_h264std.h"
+	"vk_video/vulkan_video_codec_h264std_encode.h"
+	"vk_video/vulkan_video_codec_h265std.h"
+	"vk_video/vulkan_video_codec_h265std_encode.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h264std_encode.h
+	"vulkan_video_codec_h264std.h"
+
+1698096652 d:\apps\vulkan\include\vk_video\vulkan_video_codec_h265std_encode.h
+	"vulkan_video_codec_h265std.h"
+
+1706330240 source:d:\unlimitedlife-vk\uen\uen\general.cpp
+	"General.h"
+	<stdlib.h>
+
+1657836684 d:\projects\comps\glfw\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<objc/objc.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
